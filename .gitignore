@@ -1,10 +1,21 @@
+# Vite
+dist/
+.vite/
+
+# Build outputs
+build/
+.env*.local
+
+# Dependencies
+node_modules/
+
+# IDE
+.DS_Store
+.idea/
+*.swp
+*.swo
+
 # v0 runtime files
 __v0_runtime_loader.js
 __v0_devtools.tsx
 __v0_jsx-dev-runtime.ts
-
-# Common ignores
-node_modules/
-.next/
-.env*.local
-.DS_Store
